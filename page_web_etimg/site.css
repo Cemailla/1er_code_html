@@ -1,0 +1,435 @@
+*{
+    margin : 0px;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    }
+ html {
+	 font-family: Arial, Helvetica, sans-serif
+ }
+ body{
+	 background: white;
+	 height: 100vh;
+ }
+ 
+ nav{
+	width: 100%;		
+	height:50px;
+	background: #e30613; 
+	border-bottom: 0.5px solid #EFE9E9;
+	
+	
+ }
+ 
+.nav-barre{
+	text-decoration: none;
+    color:black;
+}	
+ .fit-picture{
+	 border: 0;
+	 margin-top: 10px;
+	 margin-left:950px;
+	 font-size: 20px;
+	 border-radius: 10px;	
+ }
+	
+
+.liste-items{	 
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	height: 100%;
+	line-height: 50px;
+	font-size: 14px;
+	
+}
+.items{
+	cursor: pointer;
+	margin: 0 30px;
+	flex-shrink: 0;
+	text-align: center;
+}
+
+
+	
+/*Sous liste*/
+
+.sous-liste{
+	position: relative;
+	top: -2px;
+	display :none;
+	
+}
+.items-sous-liste{
+	list-style-type: none;
+	text-align: center;
+	padding: 0 10px;
+	border-bottom: 0.5px solid #EFE9E9;
+	background: white;
+	
+	
+	
+}
+
+
+.barre {
+
+  color:black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.items-sous-liste:hover { 
+	background: #e30613;
+}
+/*Faire apparaitre quand on survole*/
+.items:hover > ul  { 
+	display: block;
+}
+/*Page présentation IUT*/
+
+.competence{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 98%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+	
+}
+
+.texte-tab-competence{
+    width: 40%;
+    text-align: justify;
+	
+}
+
+.tab-competence{
+    width: 60%;
+    padding-left: 50px;
+    border-collapse: collapse;
+	margin-right: 20px;
+	padding-bottom: 10px;
+}
+h1{
+	padding-left: 10px;
+}
+.compétence2 , .compétence4 , .compétence6{
+    flex: auto;
+	padding-top: 10px;
+}
+
+.pres-ress{
+    padding-top: 100px;
+    display: contents;
+}
+
+.box-ress{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.tab-ressource{
+    border-collapse: collapse;
+}
+
+#comp{
+    padding-left: 230px;
+    padding-top: 10px;
+    padding-bottom: 20px
+}
+
+#modalite{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.sep{
+	height: 2px;
+	background: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+/*Compétence 1*/
+
+   h2{
+        padding:10px;
+   }
+   .coeff h3{
+        padding-top:10px;
+   }		
+   .critique{
+        border-width:1px;
+        border-style:solid;
+        border-color:black;
+        
+        padding-bottom: 2%;
+		padding-left: 30px;
+   }
+
+   .apprentissage{
+        border-width:1px;
+        border-style:solid;
+        border-color:transparent;
+		
+   }
+
+   .comp1{
+        margin-right: 35px;
+		height: 100px;
+		margin-top: 10px;
+   }
+   
+   .compétence2{
+	   height: 100px;
+	   
+   }
+   .compétence3{
+	   height: 100px;
+	   margin-top: 10px;
+	   
+   }   
+   .compétence4{
+	   height: 100px;
+	   
+   }
+   
+   .compétence5{
+	   height: 100px;
+	   
+   }
+   .compétence6{
+	   height: 100px;
+	   
+   }   
+   
+   
+   th{
+    background-color: gray;
+   }
+
+   .coeff{
+        border-width:1px;
+        border-style:solid;
+        border-color:black;
+		margin-left: 10px;
+   }
+
+   .apprentissage li{
+    list-style-type: '● ';
+    }
+
+    .ress{
+        border-width:1px;
+        border-style:solid;
+        border-color:darkblue;
+        padding: 20px;
+		
+    }
+
+    .competop{
+        text-align: center;
+    }
+
+    .descrip li{
+        list-style-type: '- ';
+    }
+
+.sep1{
+	height: 2px;
+	background: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+p{
+	margin-left: 10px;
+	
+}
+
+.mesimg{
+	margin-left: 10px;
+
+}
+
+  /*Page contact*/
+
+  #msg{
+    height: 200px;
+    width: 500px;
+    font-size: large;
+	margin-left: 10px;
+}
+  #msg-title{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.contact{
+    display: flex;
+    margin-left: 10px;
+	
+	
+}
+
+.form-contact{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.boite-msg{
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 10px;
+	margin-left: 10px;
+}
+
+#envoie{
+    width: 200px;
+    height: 30px;
+}
+
+#contact{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.renseig{
+    display: flex;
+}
+
+.rensleft{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+	margin-left: 10px;
+}
+
+.rensright{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+	margin-left: 10px;
+	
+}
+.rensright h5{
+	margin-left:10px;
+	margin-top: 10px;
+	
+}
+.img-renseig-left{
+    width: 600px;
+    height: 390px;
+    margin: 15px;
+}
+
+.img-renseig-right{
+    width: 450px;
+    height: 300px;
+	margin-left: 90px;
+	padding-top: 40px;
+}
+.boite-prenom {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.boite-nom {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.boite-mail {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.envoyer {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.img2 {
+	margin-left: 10px;
+}
+.image_vie_étudiante {
+	margin-left: 10px;
+}
+
+/*Footer*/
+
+footer{
+   display: flex;
+   justify-content: space-between;
+   background-color:  #e30613 ;
+   padding: 10px;
+   margin-top: 10px;
+ }
+
+.plan-site{
+  background-color: #e30613 ;
+  padding-left: 10px;
+  border-width:1px;
+  border-style:solid;
+  border-color:transparent;
+  
+				
+}
+.plan-site a{
+		
+  color: black;
+		
+}	
+.plan-site a:hover { 
+	color: white ;
+}
+footer li{
+    list-style-type: '●'; 
+	padding-left: 10px;
+}
+	
+.revenir a:hover { 
+	color: red ;
+}	
+
+.revenir {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}	
+.revenir a{
+	color: black;
+	text-align: center;
+}
+footer li li{
+   list-style-type: '-'; 
+   padding-left: 20px;
+}
+
+.cnil{
+   margin-top: auto;
+		
+}
+.cnil a{
+   color: black;
+		
+}
+.cnil a:hover { 
+	color: purple ;
+}
+
+.entreprise{
+    margin-bottom: auto;
+    background-color: #e30613 ;
+    border-width:1px;
+    border-style:solid;
+    border-color:transparent;
+	padding-left: 10px;
+}
+ 

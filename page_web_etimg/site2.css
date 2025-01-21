@@ -1,0 +1,291 @@
+*{
+    margin : 0px;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    }
+ html {
+	 front-family: Arial, Helvetica, sans-serif
+ }
+ body{
+	 background: white;
+	 height: 100vh;
+ }
+ 
+ nav{
+	width: 100%;		
+	height:50px;
+	background: #e30613; 
+	border-bottom: 0.5px solid #EFE9E9;
+	
+	
+ }
+ 
+.nav-barre{
+	text-decoration: none;
+    color:black;
+}	
+ .fit-picture{
+	 border: 0;
+	 margin-top: 10px;
+	 margin-left:950px;
+	 font-size: 20px;
+	 border-radius: 10px;	
+ }
+	
+
+.liste-items{	 
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	height: 100%;
+	line-height: 50px;
+	font-size: 14px;
+	
+}
+.items{
+	cursor: pointer;
+	margin: 0 30px;
+	flex-shrink: 0;
+	text-align: center;
+}
+
+
+	
+/*Sous liste*/
+
+.sous-liste{
+	position: relative;
+	top: -2px;
+	display :none;
+	
+}
+.items-sous-liste{
+	list-style-type: none;
+	text-align: center;
+	padding: 0 10px;
+	border-bottom: 0.5px solid #EFE9E9;
+	background: white;
+	
+	
+	
+}
+
+
+.barre {
+
+  color:black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.items-sous-liste:hover { 
+	background: #e30613;
+}
+/*Faire apparaitre quand on survole*/
+.items:hover > ul  { 
+	display: block;
+}
+
+
+.Page-Accueil { 
+	box-sizing: border-box;
+	position: relative;
+	height: auto;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color: #004080
+}
+
+
+.header {
+
+	flex-basis: 100%;
+	bo: #A0A0A0;
+
+
+
+
+
+
+}
+
+.texte {
+	background-color: FF0000;
+}
+
+
+.image_vie_étudiante {
+   text-align : right;
+   background-color: FF0000;
+
+}
+
+.lien {
+color: #C0C0C0;
+}
+
+.bas {
+	background-color: #A0A0A0;
+}
+
+.p {
+	justify-content: center;
+	color: #FFFFFF;
+	
+}
+
+.img2 : img hover {
+
+webkit-transform:scale(1.25)
+transform:scale(1.25)	
+	
+
+}
+
+.img2 : img {
+	webkit-transition: all 1s ease
+	transition: all 1s ease
+
+}
+
+.footerR {
+	box-sizing: border-box;
+
+    
+	
+	background-color:#004080 ;
+
+}
+
+
+
+
+.zoom {
+
+}
+
+
+/*Footer*/
+
+footer{
+   display: flex;
+   justify-content: space-between;
+   background-color:  #e30613 ;
+   padding: 10px;
+   margin-top: 10px;
+ }
+
+.plan-site{
+  background-color:  #e30613 ;
+  padding-left: 10px;
+  border-width:1px;
+  border-style:solid;
+  border-color:#e30613;
+  
+				
+}
+.plan-site a{
+		
+  color: black;
+		
+}	
+.plan-site a:hover { 
+	color: white ;
+}
+footer li{
+    list-style-type: '●'; 
+	padding-left: 10px;
+}
+	
+.revenir a:hover { 
+	color: red ;
+}	
+
+.revenir {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}	
+.revenir a{
+	color: black;
+	text-align: center;
+}
+footer li li{
+   list-style-type: '-'; 
+   padding-left: 20px;
+}
+
+.cnil{
+   margin-top: auto;
+		
+}
+.cnil a{
+   color: black;
+		
+}
+.cnil a:hover { 
+	color: purple ;
+}
+
+.entreprise{
+    margin-bottom: auto;
+    background-color: #e30613 ;
+    border-width:1px;
+    border-style:solid;
+    border-color:#e30613;
+	padding-left: 10px;
+}
+/Page présentation IUT/
+
+.competence{
+    display: flex;
+    border: 1px solid black;
+    width: 98%;
+}
+
+.td, th{
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+.texte-tab-competence{
+    width: 40%;
+    text-align: justify;
+
+}
+
+.tab-competence{
+    width: 60%;
+    padding-left: 50px;
+    border-collapse: collapse;
+}
+
+.press-ress{
+    padding-top: 100px;
+    display: contents;
+}
+
+.box-ress{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+
+.tab-ressource{
+    border-collapse: collapse;
+}
+
+.titre {
+    margin-left: 10px;
+}
+
+.modalite {
+    margin-left: 10px;
+}
